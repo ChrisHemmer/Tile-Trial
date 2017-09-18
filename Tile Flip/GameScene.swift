@@ -17,7 +17,7 @@ import AVFoundation
 class GameScene: SKScene{
     var gameManager:GameManager?
    
-    //Setting up tiles
+    //Setting up the tiles
     var tile1: SKTileDefinition = SKTileDefinition(texture: SKTexture(imageNamed: "NumberTile1"))
     var tile2: SKTileDefinition = SKTileDefinition(texture: SKTexture(imageNamed: "NumberTile2"))
     var tile3: SKTileDefinition = SKTileDefinition(texture: SKTexture(imageNamed: "NumberTile3"))
