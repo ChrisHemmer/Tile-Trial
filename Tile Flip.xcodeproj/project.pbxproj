@@ -8,26 +8,65 @@
 
 /* Begin PBXBuildFile section */
 		24614C1A1EF57D330025C6DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24614C191EF57D330025C6DE /* AppDelegate.swift */; };
-		24614C1C1EF57D330025C6DE /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 24614C1B1EF57D330025C6DE /* GameScene.sks */; };
-		24614C1E1EF57D330025C6DE /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 24614C1D1EF57D330025C6DE /* Actions.sks */; };
 		24614C201EF57D330025C6DE /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24614C1F1EF57D330025C6DE /* GameScene.swift */; };
 		24614C221EF57D330025C6DE /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24614C211EF57D330025C6DE /* GameViewController.swift */; };
 		24614C251EF57D330025C6DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24614C231EF57D330025C6DE /* Main.storyboard */; };
 		24614C271EF57D330025C6DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24614C261EF57D330025C6DE /* Assets.xcassets */; };
-		24614C2A1EF57D330025C6DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24614C281EF57D330025C6DE /* LaunchScreen.storyboard */; };
+		24706DA21F073971005B3D19 /* rollover3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 24706DA11F073971005B3D19 /* rollover3.wav */; };
+		24706DA41F073FEE005B3D19 /* switch6.wav in Resources */ = {isa = PBXBuildFile; fileRef = 24706DA31F073FEE005B3D19 /* switch6.wav */; };
+		24706DA61F074600005B3D19 /* powerUp7.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 24706DA51F074600005B3D19 /* powerUp7.mp3 */; };
+		24706DA81F074687005B3D19 /* powerUp4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 24706DA71F074687005B3D19 /* powerUp4.mp3 */; };
+		24A4124F1F0A984700E8111A /* LevelSelectVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A4124E1F0A984700E8111A /* LevelSelectVC.swift */; };
+		24A4125D1F0AE29A00E8111A /* Level.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A4125C1F0AE29A00E8111A /* Level.swift */; };
+		24E6C6391EF9A68B00D39B9B /* menuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E6C6381EF9A68B00D39B9B /* menuVC.swift */; };
+		24E946661EFD6D750012A35A /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24E946651EFD6D750012A35A /* GoogleMobileAds.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		24E9466A1EFD6F080012A35A /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24E946681EFD6F080012A35A /* EventKit.framework */; };
+		24E9466B1EFD6F080012A35A /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24E946691EFD6F080012A35A /* EventKitUI.framework */; };
+		24E9466D1EFD6F170012A35A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24E9466C1EFD6F170012A35A /* AVFoundation.framework */; };
+		24E9466F1EFD6F1F0012A35A /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24E9466E1EFD6F1F0012A35A /* AdSupport.framework */; };
+		24E946711EFD6F370012A35A /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24E946701EFD6F370012A35A /* AudioToolbox.framework */; };
+		24E946731EFD6F4F0012A35A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24E946721EFD6F4F0012A35A /* CoreGraphics.framework */; };
+		24E946751EFD6F5A0012A35A /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24E946741EFD6F5A0012A35A /* CoreTelephony.framework */; };
+		24E946771EFD6F690012A35A /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24E946761EFD6F690012A35A /* CoreMedia.framework */; };
+		24E946791EFD6F790012A35A /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24E946781EFD6F790012A35A /* MessageUI.framework */; };
+		24E9467B1EFD6F850012A35A /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24E9467A1EFD6F850012A35A /* StoreKit.framework */; };
+		24E9467D1EFD6F930012A35A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24E9467C1EFD6F930012A35A /* SystemConfiguration.framework */; };
+		24E9467F1EFD770D0012A35A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 24E9467E1EFD770D0012A35A /* GoogleService-Info.plist */; };
+		2FEA22179A4AF2F2217FA3AB /* Pods_Tile_Flip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D511C871DC30C0C5751C48B /* Pods_Tile_Flip.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		24614C161EF57D330025C6DE /* Tile Flip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tile Flip.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		24614C191EF57D330025C6DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		24614C1B1EF57D330025C6DE /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		24614C1D1EF57D330025C6DE /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		24614C1F1EF57D330025C6DE /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		24614C211EF57D330025C6DE /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		24614C241EF57D330025C6DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		24614C261EF57D330025C6DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		24614C291EF57D330025C6DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		24614C2B1EF57D330025C6DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24706DA11F073971005B3D19 /* rollover3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = rollover3.wav; sourceTree = "<group>"; };
+		24706DA31F073FEE005B3D19 /* switch6.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = switch6.wav; sourceTree = "<group>"; };
+		24706DA51F074600005B3D19 /* powerUp7.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = powerUp7.mp3; sourceTree = "<group>"; };
+		24706DA71F074687005B3D19 /* powerUp4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = powerUp4.mp3; sourceTree = "<group>"; };
+		24A4124E1F0A984700E8111A /* LevelSelectVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LevelSelectVC.swift; sourceTree = "<group>"; };
+		24A4125C1F0AE29A00E8111A /* Level.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Level.swift; sourceTree = "<group>"; };
+		24DC6FC31F142FDC00888F75 /* Tile Flip.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Tile Flip.entitlements"; sourceTree = "<group>"; };
+		24E6C6381EF9A68B00D39B9B /* menuVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = menuVC.swift; sourceTree = "<group>"; };
+		24E946651EFD6D750012A35A /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
+		24E946681EFD6F080012A35A /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		24E946691EFD6F080012A35A /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = System/Library/Frameworks/EventKitUI.framework; sourceTree = SDKROOT; };
+		24E9466C1EFD6F170012A35A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		24E9466E1EFD6F1F0012A35A /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		24E946701EFD6F370012A35A /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		24E946721EFD6F4F0012A35A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		24E946741EFD6F5A0012A35A /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		24E946761EFD6F690012A35A /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		24E946781EFD6F790012A35A /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		24E9467A1EFD6F850012A35A /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		24E9467C1EFD6F930012A35A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		24E9467E1EFD770D0012A35A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2D511C871DC30C0C5751C48B /* Pods_Tile_Flip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tile_Flip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CA90CE4E8889EBAB6098D2D /* Pods-Tile Flip.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tile Flip.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tile Flip/Pods-Tile Flip.debug.xcconfig"; sourceTree = "<group>"; };
+		A855D1495CB69F28B06776EB /* Pods-Tile Flip.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tile Flip.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tile Flip/Pods-Tile Flip.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,17 +74,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24E9467D1EFD6F930012A35A /* SystemConfiguration.framework in Frameworks */,
+				24E9467B1EFD6F850012A35A /* StoreKit.framework in Frameworks */,
+				24E946791EFD6F790012A35A /* MessageUI.framework in Frameworks */,
+				24E946771EFD6F690012A35A /* CoreMedia.framework in Frameworks */,
+				24E946751EFD6F5A0012A35A /* CoreTelephony.framework in Frameworks */,
+				24E946731EFD6F4F0012A35A /* CoreGraphics.framework in Frameworks */,
+				24E9466D1EFD6F170012A35A /* AVFoundation.framework in Frameworks */,
+				24E946711EFD6F370012A35A /* AudioToolbox.framework in Frameworks */,
+				24E9466F1EFD6F1F0012A35A /* AdSupport.framework in Frameworks */,
+				24E9466A1EFD6F080012A35A /* EventKit.framework in Frameworks */,
+				24E9466B1EFD6F080012A35A /* EventKitUI.framework in Frameworks */,
+				24E946661EFD6D750012A35A /* GoogleMobileAds.framework in Frameworks */,
+				2FEA22179A4AF2F2217FA3AB /* Pods_Tile_Flip.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F5515DC077A60B97D6E8A25 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5CA90CE4E8889EBAB6098D2D /* Pods-Tile Flip.debug.xcconfig */,
+				A855D1495CB69F28B06776EB /* Pods-Tile Flip.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		24614C0D1EF57D330025C6DE = {
 			isa = PBXGroup;
 			children = (
 				24614C181EF57D330025C6DE /* Tile Flip */,
 				24614C171EF57D330025C6DE /* Products */,
+				24E946671EFD6F080012A35A /* Frameworks */,
+				0F5515DC077A60B97D6E8A25 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,17 +123,43 @@
 		24614C181EF57D330025C6DE /* Tile Flip */ = {
 			isa = PBXGroup;
 			children = (
+				24DC6FC31F142FDC00888F75 /* Tile Flip.entitlements */,
+				24E946651EFD6D750012A35A /* GoogleMobileAds.framework */,
 				24614C191EF57D330025C6DE /* AppDelegate.swift */,
-				24614C1B1EF57D330025C6DE /* GameScene.sks */,
-				24614C1D1EF57D330025C6DE /* Actions.sks */,
 				24614C1F1EF57D330025C6DE /* GameScene.swift */,
 				24614C211EF57D330025C6DE /* GameViewController.swift */,
+				24A4125C1F0AE29A00E8111A /* Level.swift */,
 				24614C231EF57D330025C6DE /* Main.storyboard */,
+				24A4124E1F0A984700E8111A /* LevelSelectVC.swift */,
+				24E6C6381EF9A68B00D39B9B /* menuVC.swift */,
 				24614C261EF57D330025C6DE /* Assets.xcassets */,
-				24614C281EF57D330025C6DE /* LaunchScreen.storyboard */,
+				24706DA71F074687005B3D19 /* powerUp4.mp3 */,
+				24706DA11F073971005B3D19 /* rollover3.wav */,
+				24706DA31F073FEE005B3D19 /* switch6.wav */,
+				24706DA51F074600005B3D19 /* powerUp7.mp3 */,
 				24614C2B1EF57D330025C6DE /* Info.plist */,
+				24E9467E1EFD770D0012A35A /* GoogleService-Info.plist */,
 			);
 			path = "Tile Flip";
+			sourceTree = "<group>";
+		};
+		24E946671EFD6F080012A35A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				24E9467C1EFD6F930012A35A /* SystemConfiguration.framework */,
+				24E9467A1EFD6F850012A35A /* StoreKit.framework */,
+				24E946781EFD6F790012A35A /* MessageUI.framework */,
+				24E946761EFD6F690012A35A /* CoreMedia.framework */,
+				24E946741EFD6F5A0012A35A /* CoreTelephony.framework */,
+				24E946721EFD6F4F0012A35A /* CoreGraphics.framework */,
+				24E946701EFD6F370012A35A /* AudioToolbox.framework */,
+				24E9466E1EFD6F1F0012A35A /* AdSupport.framework */,
+				24E9466C1EFD6F170012A35A /* AVFoundation.framework */,
+				24E946681EFD6F080012A35A /* EventKit.framework */,
+				24E946691EFD6F080012A35A /* EventKitUI.framework */,
+				2D511C871DC30C0C5751C48B /* Pods_Tile_Flip.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -80,9 +169,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 24614C2E1EF57D330025C6DE /* Build configuration list for PBXNativeTarget "Tile Flip" */;
 			buildPhases = (
+				342E4A630E161BCD8C19AA0A /* [CP] Check Pods Manifest.lock */,
 				24614C121EF57D330025C6DE /* Sources */,
 				24614C131EF57D330025C6DE /* Frameworks */,
 				24614C141EF57D330025C6DE /* Resources */,
+				70FCAC742B76C4DF732444A6 /* [CP] Embed Pods Frameworks */,
+				9906A422287F614650635A0F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -107,6 +199,11 @@
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = DZY8992G3X;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -134,21 +231,74 @@
 			buildActionMask = 2147483647;
 			files = (
 				24614C251EF57D330025C6DE /* Main.storyboard in Resources */,
-				24614C1C1EF57D330025C6DE /* GameScene.sks in Resources */,
 				24614C271EF57D330025C6DE /* Assets.xcassets in Resources */,
-				24614C2A1EF57D330025C6DE /* LaunchScreen.storyboard in Resources */,
-				24614C1E1EF57D330025C6DE /* Actions.sks in Resources */,
+				24706DA61F074600005B3D19 /* powerUp7.mp3 in Resources */,
+				24706DA21F073971005B3D19 /* rollover3.wav in Resources */,
+				24706DA81F074687005B3D19 /* powerUp4.mp3 in Resources */,
+				24706DA41F073FEE005B3D19 /* switch6.wav in Resources */,
+				24E9467F1EFD770D0012A35A /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		342E4A630E161BCD8C19AA0A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		70FCAC742B76C4DF732444A6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tile Flip/Pods-Tile Flip-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9906A422287F614650635A0F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tile Flip/Pods-Tile Flip-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		24614C121EF57D330025C6DE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24A4125D1F0AE29A00E8111A /* Level.swift in Sources */,
 				24614C201EF57D330025C6DE /* GameScene.swift in Sources */,
+				24E6C6391EF9A68B00D39B9B /* menuVC.swift in Sources */,
+				24A4124F1F0A984700E8111A /* LevelSelectVC.swift in Sources */,
 				24614C221EF57D330025C6DE /* GameViewController.swift in Sources */,
 				24614C1A1EF57D330025C6DE /* AppDelegate.swift in Sources */,
 			);
@@ -163,14 +313,6 @@
 				24614C241EF57D330025C6DE /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		24614C281EF57D330025C6DE /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				24614C291EF57D330025C6DE /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -273,27 +415,45 @@
 		};
 		24614C2F1EF57D330025C6DE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CA90CE4E8889EBAB6098D2D /* Pods-Tile Flip.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = DZY8992G3X;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Tile\\ Flip",
+				);
 				INFOPLIST_FILE = "Tile Flip/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ChrisHemmer.Tile-Flip";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		24614C301EF57D330025C6DE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A855D1495CB69F28B06776EB /* Pods-Tile Flip.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = DZY8992G3X;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Tile\\ Flip",
+				);
 				INFOPLIST_FILE = "Tile Flip/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ChrisHemmer.Tile-Flip";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -316,6 +476,7 @@
 				24614C301EF57D330025C6DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
